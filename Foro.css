@@ -33,15 +33,15 @@ body {
   body {
     margin: 0;
     font-family: Arial, sans-serif;
-    background-color: #d2edff;
+    background-image: url(https://i.pinimg.com/564x/53/87/1c/53871c2347b2a5a22348df51bcee9737.jpg);
   }
   header {
-    background: linear-gradient(to bottom, #85C1E9, #d2edff);
     text-align: center;
     padding: 0;
     margin: 0;
-    line-height: 7;
+    line-height: 1;
     font-family: 'Times New Roman', Times, serif;
+    background-color: #51DCCB;
   }
   header a {
     display: block; 
@@ -50,6 +50,8 @@ body {
     font-size: 0px;
     font-weight: bold;
     padding: 0px;
+    text-align: left;
+    margin-left: 6px;
   }
   header a:hover {
     text-decoration: underline;
@@ -68,9 +70,17 @@ body {
   }
 
   #title2 {
-
-    background-color: black;
     color: white;
     text-align: center;
     padding: 10px;
+    font-family: "Sigmar", cursive;
+    font-size: 30px;
+    background-color: #5EE7D6;
+    margin-top: 0px;
+  }
+
+  .p {
+    font-family: 'Lobster Two', cursive; 
+    margin-bottom: 50px;
+    font-size: 18px;
   }
